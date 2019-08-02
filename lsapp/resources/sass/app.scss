@@ -1,0 +1,14 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// _custom.scss included for compilation
+// You dont need to put the underscore because it shows that the _custom.scss is an include
+@import "custom";
+
+// Your scss code go here which are later compiled to css for production
